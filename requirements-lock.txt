@@ -1,0 +1,12 @@
+# Pinned reference environment (exact versions used for the released experiments,
+# 4 x NVIDIA RTX 5880 Ada, Python 3.12).
+# Note: torch/torchvision were nightly builds (2.9.0.dev20250811+cu128); the
+# closest installable stable releases are pinned here.
+torch==2.9.0
+torchvision==0.24.0
+numpy==2.3.5
+scikit-learn==1.7.1
+scipy==1.16.1
+tqdm==4.67.1
+Pillow==10.4.0
+matplotlib==3.10.8
